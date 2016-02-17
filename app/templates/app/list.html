@@ -1,0 +1,4 @@
+{% for filemodelobj in modelobjs %}
+    <h2>{{filemodelobj.image_title}}</h2>
+    <img src="{{ filemodelobj.image.url}}">
+{% endfor %}
